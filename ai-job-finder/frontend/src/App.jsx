@@ -13,7 +13,7 @@ function App() {
 
     try {
       const res = await fetch(
-        "http://127.0.0.1:8000/chat",
+        "https://manoj-ai-job-finder-ejeac4d3e7avacdz.centralindia-01.azurewebsites.net/chat",
         {
           method: "POST",
           headers: {
